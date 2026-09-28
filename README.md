@@ -15,6 +15,8 @@
 
 ## 📄 Full findings with business recommendations are in the [Full Analysis Report](Telecom-Upload/Final%20Report/Telecom_Churn_Analysis_Report_Debashis.docx)
 
+## Python Eda File [Eda File](Telecom-Upload/Python Notebooks/Telco_Churn_EDA_Clean.ipynb)
+
 
 ---
 
