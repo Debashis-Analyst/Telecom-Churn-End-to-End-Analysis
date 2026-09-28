@@ -85,7 +85,7 @@ Customers were grouped by monthly bill into three categories: **Low** (up to $35
 
 ## 🗄️ SQL: From Insight to Action
 
-The EDA identified the high-risk customer groups. SQL was then used the way analysts use it on the job: to fetch the exact customer lists behind each finding, including current churn status, so retention and marketing teams know who to contact.
+The EDA identified the high-risk customer groups. SQL was then used to fetch the exact customer lists behind each finding, so retention and marketing teams know who to contact.
 
 | # | Customer List Fetched | Business Use |
 |---|----------------------|--------------|
@@ -96,4 +96,4 @@ The EDA identified the high-risk customer groups. SQL was then used the way anal
 | 5 | Churn rate by Contract × Payment Method (GROUP BY) | Cross-checks the Python results in SQL |
 
 Queries are in [`Analysis.sql`](./Analysis.sql).
----
+
