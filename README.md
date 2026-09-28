@@ -46,7 +46,7 @@ The raw dataset did not have some of the columns needed to answer the business q
 | **Churn_Flag** | Churn "Yes" → 1, "No" → 0 | Lets us calculate churn percentage with a simple average |
 | **Billing_Category** | Monthly Charges split into **Low** ($0–35), **Medium** ($35–70), **High** ($70–120) | Groups customers by bill size to see who is at risk |
 | **Add_On_Count** | Counted how many of 6 services each customer has: Online Security, Online Backup, Device Protection, Tech Support, Streaming TV, Streaming Movies | Shows how "attached" a customer is to the company |
-| **Household_Type** | **Family** = has dependents · **Couple** = has partner, no dependents · **Alone** = no partner, no dependents | Tests whether household situation affects churn |
+| **Household_Type** | **Family** = Who has dependents · **Couple** = Who has partner, But no dependents · **Alone** = no partner, no dependents | Tests whether household situation affects churn |
 | **Tenure_Group** | Tenure split into 12-month bands (0–12, 12–24, … 60–72) | Checks that a pattern is real and not just caused by customer age |
 
 
@@ -64,21 +64,20 @@ Customers were grouped by monthly bill into three categories: **Low** (up to $35
 > **Fiber optic customers without Tech Support churn at ~50%, more than double the rate of those with it (~23%).** This is the single highest-risk segment in the dataset, and it is one that the company can directly act on.
 
 
-
-
 ## 🔍 Key EDA Findings (Python)
 
 | # | Analysis | Key Finding |
 |---|----------|-------------|
-| 1 | **Tenure** | Churn is highest in the first 1-5 months. Customers who stay past 12 months become far more loyal |
-| 2 | **Monthly Charges** | Customers paying $20-$30 churn at just **10.33%**, while those paying $75-$120 churn at **34.67%** |
-| 3 | **"Trapped" Customer Persona** | Among high-billing customers, churn falls sharply as add-ons increase: from about 57-60% with 0 add-ons to just 3-10% with 6 add-ons. This holds whether the customer is Alone, a Couple, or a Family, so add-on count matters more than household type |
-| 4 | **Contract Type** | Month-to-month churns at **42.71%**, vs 11.28% for One-year and 2.85% for Two-year contracts |
-| 5 | **Contract × Payment Method** | Electronic check has the highest churn in every contract tier. Month-to-month + Electronic check reaches **53.73%**. The pattern holds in every tenure band, so it is not just a byproduct of newer customers |
-| 6 | **Internet Service** | Fiber optic churns at 41.89%, more than double DSL (19.00%) and far above customers with no internet service (7.43%) |
-| 7 | **Fiber + Tech Support** | Fiber customers *without* Tech Support churn at ~50%, vs ~23% *with* it. This is the single highest-risk segment in the dataset |
-| 8 | **Senior Citizens + Tech Support** | Seniors without Tech Support churn at **50.60%**, vs 38.83% for non-seniors without it. With Tech Support, both groups drop sharply (19.62% and 14.55%) |
+| 1 | **Tenure** | Customers are most likely to leave in their first 1-5 months after joining. Those who stay past their first year become far more loyal |
+| 2 | **Monthly Charges** | Customers paying $20-$30 a month leave at just **10.33%**, while those paying $75-$120 a month leave at **34.67%** |
+| 3 | **"Trapped" Customer Persona** | Among customers with high monthly bills, the more extra services they use (like Tech Support or Online Security), the less likely they are to leave: about 57-60% leave with no extra services, but only 3-10% leave with all 6. This holds whether the customer lives Alone, as a Couple, or as a Family, so extra services matter more than household type |
+| 4 | **Contract Type** | Customers on a month-to-month plan (no long-term commitment) leave at **42.71%**, vs 11.28% on one-year contracts and 2.85% on two-year contracts |
+| 5 | **Contract × Payment Method** | Customers who pay by electronic check (paying manually online each month) leave the most, whichever contract type they are on. Month-to-month customers paying by electronic check reach **53.73%**. This holds even when comparing customers of the same length of stay, so it is not just because these customers are newer |
+| 6 | **Internet Service** | Customers with Fiber optic internet (the premium, faster plan) leave at 41.89%, more than double DSL (19.00%) and far above customers with no internet service (7.43%) |
+| 7 | **Fiber + Tech Support** | Fiber optic customers *without* a Tech Support plan leave at ~50%, vs ~23% for those *with* one. This is the highest-risk group in the entire dataset |
+| 8 | **Senior Citizens + Tech Support** | Senior citizens without Tech Support leave at **50.60%**, vs 38.83% for younger customers without it. With Tech Support, both groups drop sharply (19.62% and 14.55%) |
 
 📄 Full findings with business recommendations are in the [Project Report](./Telecom_Churn_Analysis_Report.docx).
+
 
 ---
