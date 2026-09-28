@@ -117,18 +117,19 @@ The exploratory findings were translated into an interactive executive dashboard
 ### 1. Executive Overview
 Monitors top-level subscribers, baseline attrition, and contract exposure
 
-![Executive Overview](Telecom-Upload/Power%20Bi%20Dashboards/Screenshot%202026-09-29%20024640.png)
+![Executive Overview](Telecom-Upload/Power%20Bi%20Dashboards/Screenshot%202026-09-29%20024613.png
+)
 
 * **Key KPIs:** Tracks 7,032 total accounts, an overall churn rate of 26.58%, and $139K in monthly recurring revenue currently at risk.
 * **Contract Risk:** Month-to-month subscribers leave at 42.71%, whereas long-term commitments (1–2 years) see attrition drop to 11.28% and 2.85%.
 * **Payment Friction:** Electronic check payments show an overall churn rate of ~45%, significantly higher than automated credit card or bank transfer options (~15%–17%).
 
----
+--- 
 
 ### 2. Deep Dive: Churn Drivers & Prevention
 Isolates multi-service interactions to identify root causes and retention opportunities.
 
-![Deep Dive Analysis](Telecom-Upload/PowerBiDashboards/Screenshot2026-09-29024640.png)
+![Deep Dive Analysis](Telecom-Upload/Power%20Bi%20Dashboards/Screenshot%202026-09-29%20024640.png)
 
 * **Fiber Optic Support Gap:** Fiber Optic churn reaches ~50% when Tech Support is missing, but drops to ~23% when Tech Support is bundled.
 * **Add-On Protection Curve:** Churn declines steadily across all household groups as customers adopt security and backup services, dropping below 10% for accounts with 5–6 add-ons.
