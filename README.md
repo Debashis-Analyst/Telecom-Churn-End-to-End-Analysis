@@ -11,7 +11,7 @@
 
 # 📊 Telecom Customer Churn Analysis
 
-### End-to-End Data Analysis| Python · SQL · Power BI
+### End-to-End Data Analysis  Python · SQL · Power BI
 
 ---
 
