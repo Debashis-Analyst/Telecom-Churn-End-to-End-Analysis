@@ -99,3 +99,40 @@ The EDA identified the high-risk customer groups. SQL was then used to fetch the
 
 ## Queries are in [`Analysis.sql`](./Analysis.sql).
 
+
+
+
+---
+
+## 📊 Interactive Power BI Dashboard
+
+The exploratory findings were translated into an interactive executive dashboard designed to give leadership visibility into revenue exposure and direct retention teams toward high-risk segments[cite: 4, 6].
+
+---
+
+### 1. Executive Overview
+Monitors top-level subscriber health, baseline attrition, and contract exposure[cite: 6].
+
+![Executive Overview](assets/overview.png)
+
+* **Key KPIs:** Tracks 7,032 total accounts, an overall churn rate of 26.58%, and $139K in monthly recurring revenue currently at risk[cite: 6].
+* **Contract Risk:** Month-to-month subscribers leave at 42.71%, whereas long-term commitments (1–2 years) see attrition drop to 11.28% and 2.85%[cite: 6].
+* **Payment Friction:** Electronic check payments show an overall churn rate of ~45%, significantly higher than automated credit card or bank transfer options (~15%–17%)[cite: 6].
+
+---
+
+### 2. Deep Dive: Churn Drivers & Prevention
+Isolates multi-service interactions to identify root causes and retention opportunities[cite: 5].
+
+![Deep Dive Analysis](assets/deep_dive.png)
+
+* **Fiber Optic Support Gap:** Fiber Optic churn reaches ~50% when Tech Support is missing, but drops to ~23% when Tech Support is bundled[cite: 2, 5].
+* **Add-On Protection Curve:** Churn declines steadily across all household groups as customers adopt security and backup services, dropping below 10% for accounts with 5–6 add-ons[cite: 5].
+* **Senior Citizen Care:** Senior citizens without Tech Support face a 50.60% churn rate, which drops below 20% when technical assistance is in place[cite: 2, 5].
+
+---
+
+## 🛠️ Tools & Technologies Used
+* **Python (Pandas, Matplotlib, Seaborn):** Exploratory data analysis, handling missing values, and engineering custom analytical features[cite: 3, 4].
+* **SQL:** Relational querying, cohort grouping, and business aggregations to extract targeted customer win-back lists[cite: 1, 4].
+* **Power BI:** Data modeling, DAX measures, dynamic multi-slicers, and interactive multi-page executive reporting[cite: 4, 5, 6].
