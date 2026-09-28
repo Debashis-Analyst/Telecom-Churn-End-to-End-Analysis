@@ -13,6 +13,9 @@
 
 ### End-to-End Data Analysis  Python · SQL · Power BI
 
+## 📄 Full findings with business recommendations are in the [Project Report]().
+
+
 ---
 
 ## 📌 Project Overview
@@ -77,7 +80,6 @@ Customers were grouped by monthly bill into three categories: **Low** (up to $35
 | 7 | **Fiber + Tech Support** | Fiber optic customers *without* a Tech Support plan leave at ~50%, vs ~23% for those *with* one. This is the highest-risk group in the entire dataset |
 | 8 | **Senior Citizens + Tech Support** | Senior citizens without Tech Support leave at **50.60%**, vs 38.83% for younger customers without it. With Tech Support, both groups drop sharply (19.62% and 14.55%) |
 
-## 📄 Full findings with business recommendations are in the [Project Report](./Telecom_Churn_Analysis_Report.docx).
 
 
 
@@ -131,6 +133,7 @@ Isolates multi-service interactions to identify root causes and retention opport
 * **Senior Citizen Care:** Senior citizens without Tech Support face a 50.60% churn rate, which drops below 20% when technical assistance is in place[cite: 2, 5].
 
 ---
+
 
 ## 🛠️ Tools & Technologies Used
 * **Python (Pandas, Matplotlib, Seaborn):** Exploratory data analysis, handling missing values, and engineering custom analytical features[cite: 3, 4].
