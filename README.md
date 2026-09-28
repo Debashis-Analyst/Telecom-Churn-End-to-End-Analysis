@@ -51,9 +51,10 @@ The raw dataset did not have some of the columns needed to answer the business q
 
 ### 🔎 Why this matters for the "high-billing" finding
 
-I filtered to **High-billing customers only** (paying $70–$120/month), then compared churn by number of add-ons. Churn drops steadily as add-ons increase, from about **57–60% with 0 add-ons to 3–10% with 6 add-ons**, and this holds for Alone, Couple, and Family customers alike.
+### 🔎 How the "High-Billing" Group Was Defined
 
-> ⚠️ Add-on count and tenure are moderately correlated (0.5), so this is a strong association, not a proven cause.
+Customers were grouped by monthly bill into three categories: **Low** (up to $35), **Medium** ($35–$70), and **High** (above $70, up to $120, the maximum in the data). The "high-billing customers" mentioned in the findings are everyone in the **High** category. This lets the analysis focus on the customers who pay the most, and who cost the company the most when they leave.
+
 
 ---
 
