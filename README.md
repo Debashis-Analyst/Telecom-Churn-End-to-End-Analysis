@@ -83,6 +83,8 @@ Customers were grouped by monthly bill into three categories: **Low** (up to $35
 
 
 
+
+
 ## 🗄️ SQL: From Insight to Action
 
 The EDA identified the high-risk customer groups. SQL was then used to fetch the exact customer lists behind each finding, so retention and marketing teams know who to contact.
