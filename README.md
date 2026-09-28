@@ -81,7 +81,9 @@ Customers were grouped by monthly bill into three categories: **Low** (up to $35
 | 8 | **Senior Citizens + Tech Support** | Senior citizens without Tech Support leave at **50.60%**, vs 38.83% for younger customers without it. With Tech Support, both groups drop sharply (19.62% and 14.55%) |
 
 
-## 📄 Python Eda File [Python Eda File](Telecom-Upload/Python%20Notebooks/Telco_Churn_EDA_Clean.ipynb)
+## 📄 Python Full Eda Raw_File [Python Eda File](Telecom-Upload/Python%20Notebooks/Telco_Churn_EDA_Clean.ipynb)
+
+
 
 
 
@@ -99,7 +101,7 @@ The EDA identified the high-risk customer groups. SQL was then used to fetch the
 | 4 | High-billing customers with 0-2 add-ons | Offer discounted add-on bundles |
 | 5 | Churn rate by Contract × Payment Method (GROUP BY) | Cross-checks the Python results in SQL |
 
-## Queries are in [`Analysis.sql`](./Analysis.sql).
+## Queries are in [`sql_File`](Telecom-Upload/Sql).
 
 
 
