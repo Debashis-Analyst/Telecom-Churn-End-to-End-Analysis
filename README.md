@@ -15,8 +15,6 @@
 
 ## 📄 Full findings with business recommendations are in the [Full Analysis Report](Telecom-Upload/Final%20Report/Telecom_Churn_Analysis_Report_Debashis.docx)
 
-## Python Eda File [Eda File](Telecom-Upload/Python%20Notebooks/Telco_Churn_EDA_Clean.ipynb)
-
 
 ---
 
@@ -83,7 +81,7 @@ Customers were grouped by monthly bill into three categories: **Low** (up to $35
 | 8 | **Senior Citizens + Tech Support** | Senior citizens without Tech Support leave at **50.60%**, vs 38.83% for younger customers without it. With Tech Support, both groups drop sharply (19.62% and 14.55%) |
 
 
-
+## 📄 Python Eda File [Python Eda File](Telecom-Upload/Python%20Notebooks/Telco_Churn_EDA_Clean.ipynb)
 
 
 
