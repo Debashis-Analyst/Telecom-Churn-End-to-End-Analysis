@@ -37,6 +37,28 @@ The analysis goes beyond surface-level averages — for example, high churn amon
 
 
 
+## 🛠️ How I Built the Analysis Columns
+
+The raw dataset did not have some of the columns needed to answer the business questions, so I created them in Python (pandas).
+
+| New Column | How It Was Made | Why |
+|------------|----------------|-----|
+| **Churn_Flag** | Churn "Yes" → 1, "No" → 0 | Lets us calculate churn percentage with a simple average |
+| **Billing_Category** | Monthly Charges split into **Low** ($0–35), **Medium** ($35–70), **High** ($70–120) | Groups customers by bill size to see who is at risk |
+| **Add_On_Count** | Counted how many of 6 services each customer has: Online Security, Online Backup, Device Protection, Tech Support, Streaming TV, Streaming Movies | Shows how "attached" a customer is to the company |
+| **Household_Type** | **Family** = has dependents · **Couple** = has partner, no dependents · **Alone** = no partner, no dependents | Tests whether household situation affects churn |
+| **Tenure_Group** | Tenure split into 12-month bands (0–12, 12–24, … 60–72) | Checks that a pattern is real and not just caused by customer age |
+
+### 🔎 Why this matters for the "high-billing" finding
+
+I filtered to **High-billing customers only** (paying $70–$120/month), then compared churn by number of add-ons. Churn drops steadily as add-ons increase, from about **57–60% with 0 add-ons to 3–10% with 6 add-ons**, and this holds for Alone, Couple, and Family customers alike.
+
+> ⚠️ Add-on count and tenure are moderately correlated (0.5), so this is a strong association, not a proven cause.
+
+---
+
+
+
 ## 💡 Key Insight
 
 > **Fiber optic customers without Tech Support churn at ~50%, more than double the rate of those with it (~23%).** This is the single highest-risk segment in the dataset, and it is one that the company can directly act on.
