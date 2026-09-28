@@ -117,7 +117,7 @@ The exploratory findings were translated into an interactive executive dashboard
 ### 1. Executive Overview
 Monitors top-level subscriber health, baseline attrition, and contract exposure[cite: 6].
 
-![Executive Overview](assets/overview.png)
+![Executive Overview](Telecom-Upload/Power%20Bi%20Dashboards/Screenshot%202026-09-29%20024613.png)
 
 * **Key KPIs:** Tracks 7,032 total accounts, an overall churn rate of 26.58%, and $139K in monthly recurring revenue currently at risk[cite: 6].
 * **Contract Risk:** Month-to-month subscribers leave at 42.71%, whereas long-term commitments (1–2 years) see attrition drop to 11.28% and 2.85%[cite: 6].
