@@ -34,3 +34,21 @@ The analysis goes beyond surface-level averages — for example, high churn amon
 ## 🧭 Workflow
 
 ![Project Workflow](ProjectWorkflow.jpeg)
+
+
+
+## 💡 Key Insight
+
+> **Fiber optic customers without Tech Support churn at ~50%, more than double the rate of those with it (~23%).** This is the single highest-risk segment in the dataset, and it is one that the company can directly act on.
+
+
+
+
+## 🔍 Key EDA Findings (Python)
+
+| # | Analysis | Key Finding |
+|---|----------|-------------|
+| 1 | **Tenure** | Churn is highest in the first 1-5 months. Customers who stay past 12 months become far more loyal |
+| 2 | **Monthly Charges** | Customers paying $20-$30 churn at just **10.33%**, while those paying $75-$120 churn at **34.67%** |
+| 3 | **"Trapped" Customer Persona** | Among high-billing customers, churn falls sharply as add-ons increase: from about 57-60% with 0 add-ons to just 3-10% with 6 add-ons. This holds whether the customer is Alone, a Couple, or a Family, so add-on count matters more than household type |
+| 4 | **Contract Type** | Month-to-month churns at **42.71%**, vs
