@@ -51,4 +51,12 @@ The analysis goes beyond surface-level averages — for example, high churn amon
 | 1 | **Tenure** | Churn is highest in the first 1-5 months. Customers who stay past 12 months become far more loyal |
 | 2 | **Monthly Charges** | Customers paying $20-$30 churn at just **10.33%**, while those paying $75-$120 churn at **34.67%** |
 | 3 | **"Trapped" Customer Persona** | Among high-billing customers, churn falls sharply as add-ons increase: from about 57-60% with 0 add-ons to just 3-10% with 6 add-ons. This holds whether the customer is Alone, a Couple, or a Family, so add-on count matters more than household type |
-| 4 | **Contract Type** | Month-to-month churns at **42.71%**, vs
+| 4 | **Contract Type** | Month-to-month churns at **42.71%**, vs 11.28% for One-year and 2.85% for Two-year contracts |
+| 5 | **Contract × Payment Method** | Electronic check has the highest churn in every contract tier. Month-to-month + Electronic check reaches **53.73%**. The pattern holds in every tenure band, so it is not just a byproduct of newer customers |
+| 6 | **Internet Service** | Fiber optic churns at 41.89%, more than double DSL (19.00%) and far above customers with no internet service (7.43%) |
+| 7 | **Fiber + Tech Support** | Fiber customers *without* Tech Support churn at ~50%, vs ~23% *with* it. This is the single highest-risk segment in the dataset |
+| 8 | **Senior Citizens + Tech Support** | Seniors without Tech Support churn at **50.60%**, vs 38.83% for non-seniors without it. With Tech Support, both groups drop sharply (19.62% and 14.55%) |
+
+📄 Full findings with business recommendations are in the [Project Report](./Telecom_Churn_Analysis_Report.docx).
+
+---
