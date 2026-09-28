@@ -136,7 +136,7 @@ Isolates multi-service interactions to identify root causes and retention opport
 * **Senior Citizen Care:** Senior citizens without Tech Support face a 50.60% churn rate, which drops below 20% when technical assistance is in place.
 
 --
-Power Bi File [Power_BI.pbix](Telecom-Upload/Power%20Bi%20Dashboards/Telecom_Churn.pbix)
+Power Bi File [Power_BI.pbix](Telecom-Upload/Power%20Bi%20Dashboards/Telecom_Churn.pbix.pbix)
 ---
 
 
