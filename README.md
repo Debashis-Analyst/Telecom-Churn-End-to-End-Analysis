@@ -135,6 +135,8 @@ Isolates multi-service interactions to identify root causes and retention opport
 * **Add-On Protection Curve:** Churn declines steadily across all household groups as customers adopt security and backup services, dropping below 10% for accounts with 5–6 add-ons.
 * **Senior Citizen Care:** Senior citizens without Tech Support face a 50.60% churn rate, which drops below 20% when technical assistance is in place.
 
+--
+Power Bi File [Power_BI.pbix](Telecom-Upload/Power%20Bi%20Dashboards/Telecom_Churn.pbix)
 ---
 
 
