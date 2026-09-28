@@ -85,8 +85,8 @@ Customers were grouped by monthly bill into three categories: **Low** (up to $35
 
 
 
-
-
+---
+---
 
 
 ## 🗄️ SQL: From Insight to Action
