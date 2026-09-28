@@ -49,9 +49,8 @@ The raw dataset did not have some of the columns needed to answer the business q
 | **Household_Type** | **Family** = has dependents · **Couple** = has partner, no dependents · **Alone** = no partner, no dependents | Tests whether household situation affects churn |
 | **Tenure_Group** | Tenure split into 12-month bands (0–12, 12–24, … 60–72) | Checks that a pattern is real and not just caused by customer age |
 
-### 🔎 Why this matters for the "high-billing" finding
 
-### 🔎 How the "High-Billing" Group Was Defined
+### 🔎 There is a High Billing Category and  How the "High-Billing" Group Was Defined
 
 Customers were grouped by monthly bill into three categories: **Low** (up to $35), **Medium** ($35–$70), and **High** (above $70, up to $120, the maximum in the data). The "high-billing customers" mentioned in the findings are everyone in the **High** category. This lets the analysis focus on the customers who pay the most, and who cost the company the most when they leave.
 
