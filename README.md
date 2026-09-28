@@ -95,4 +95,19 @@ The EDA identified the high-risk customer groups. SQL was then used the way anal
 
 Queries are in [`Analysis.sql`](./Analysis.sql).
 
+
+
+## 🗄️ SQL: From Insight to Action
+
+The EDA identified the high-risk customer groups. SQL was then used the way analysts use it on the job: to fetch the exact customer lists behind each finding, including current churn status, so retention and marketing teams know who to contact.
+
+| # | Customer List Fetched | Business Use |
+|---|----------------------|--------------|
+| 1 | Month-to-month customers paying by electronic check | Offer auto-pay or a longer contract to those still active; build a win-back list from those who left |
+| 2 | Fiber optic customers without Tech Support | Bundle or discount Tech Support |
+| 3 | Senior citizens without Tech Support | Prioritise seniors in the Tech Support rollout |
+| 4 | High-billing customers with 0-2 add-ons | Offer discounted add-on bundles |
+| 5 | Churn rate by Contract × Payment Method (GROUP BY) | Cross-checks the Python results in SQL |
+
+Queries are in [`Analysis.sql`](./Analysis.sql).
 ---
