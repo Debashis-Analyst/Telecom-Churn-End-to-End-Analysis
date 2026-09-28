@@ -13,7 +13,7 @@
 
 ### End-to-End Data Analysis  Python · SQL · Power BI
 
-## 📄 Full findings with business recommendations are in the [Project Report]().
+## 📄 Full findings with business recommendations are in the [Project Report](Telecom-Upload/Final Report).
 
 
 ---
