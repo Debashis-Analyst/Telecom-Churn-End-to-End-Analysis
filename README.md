@@ -13,7 +13,7 @@
 
 ### End-to-End Data Analysis  Python · SQL · Power BI
 
-## 📄 Full findings with business recommendations are in the [Project Report](Telecom-Upload/Final Report).
+## 📄 Full findings with business recommendations are in the [Telecom-Upload/Final Report/Telecom_Churn_Analysis_Report_Debashis.docx).]
 
 
 ---
