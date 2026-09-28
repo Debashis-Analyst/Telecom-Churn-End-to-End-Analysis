@@ -80,20 +80,6 @@ Customers were grouped by monthly bill into three categories: **Low** (up to $35
 📄 Full findings with business recommendations are in the [Project Report](./Telecom_Churn_Analysis_Report.docx).
 
 
-## 🗄️ SQL: From Insight to Action
-
-The EDA identified the high-risk customer groups. SQL was then used the way analysts use it on the job: to extract the exact customer lists behind each finding, split by current churn status, so retention and marketing teams know who to contact.
-
-| # | Customer List Extracted | Customers | Still Active | Already Left | Churn Rate | Business Use |
-|---|------------------------|-----------|--------------|--------------|------------|--------------|
-| 1 | Month-to-month + Electronic check | 1,850 | 856 | 994 | 53.73% | Retention offers to move active customers to auto-pay or a longer contract |
-| 2 | Fiber optic without Tech Support | 2,230 | 1,129 | 1,101 | 49.37% | Bundle or discount Tech Support for active customers |
-| 3 | Senior citizens without Tech Support | 830 | 410 | 420 | 50.60% | Prioritise seniors in the Tech Support rollout |
-| 4 | High-billing customers with 0-2 add-ons | 1,421 | 662 | 759 | 53.41% | Offer discounted add-on bundles |
-
-**Query 5: Cross-check.** A GROUP BY on Contract × Payment Method reproduces the Python results in SQL. Month-to-month + Electronic check is the highest-churn combination at **53.73%**, ahead of the other month-to-month payment methods (31.58–34.13%). Electronic check is also highest within One-year (18.44%) and Two-year (7.74%) contracts.
-
-Queries are in [`Analysis.sql`](./Analysis.sql).
 
 
 
