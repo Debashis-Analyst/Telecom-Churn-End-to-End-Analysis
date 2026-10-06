@@ -17,7 +17,7 @@
 
 ## Cleaned Dataset [Analysis Dataset](Telecom-Upload/Dataset/Telcom_Churn_Clean.xlsx)
 
-## 📄 Full findings with business recommendations are in the [Full Analysis Report](Telecom-Upload/Final%20Report/Telecom_Churn_Analysis_Report_Debashis.docx)
+## 📄 Findings with business recommendations are in the [Full Analysis Report](Telecom-Upload/Final%20Report/Telecom_Churn_Analysis_Report_Debashis.docx)
 
 
 ---
